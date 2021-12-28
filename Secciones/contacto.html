@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header class="Titulo">
+        <!--- Acá va el navbar con el logo y la ul -->
+        <a href="../index.html"><img src="../Imagenes/vc Logo.png" alt="logo"></a>
+        <!-- Acá va el logo -->
+        <nav>
+            <ol class="Menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./info.html">Historia</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./galeria.html">Galeria</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+        <form action="#" method="GET">
+            <fieldset class="conta">
+                <br>
+                <legend>Informacion de Contacto</legend>
+                <label for="name">Nombre</label>
+                <input type="text" name="user_name" id="name" placeholder="Introduzca su nombre">
+                <br>
+                <label for="lastname">Apellido</label>
+                <input type="text" name="user_lastname" id="lastname" placeholder="Introduzca su apellido">
+                <br>
+                <label for="Email" name="user_email">correo electronico</label>
+                <input type="email" name="user_email" id="email" placeholder="introduzca su email">
+                <br>
+                <label for="cellphone">telefono</label>
+                <input type="number" name="user_cellphone" id="cellphone"
+                    placeholder="introduzca su telefono de contacto">
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            <input type="button" value="No hace nada">
+
+            </fieldset>
+            
+
+        </form>
+    </main>
+
+    <footer class="Pie">
+        <div>
+            <h4>Datos de Contacto</h4>
+            <ul>
+                <li>>Direccion</li>
+                <li>Codigo Postal + Mapa , provincia</li>
+                <li>Whatsapp</li> <!-- Acá podria ir una imagen del ícono de whatsapp y el link al mismo -->
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
